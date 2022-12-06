@@ -49,7 +49,7 @@ body {
 
 .border {
     border: 1px solid lightgray;
-    margin-top: 8px;
+    margin: 8px 0;
 }
 
 .content {
@@ -57,7 +57,7 @@ body {
 }
 
 h3 {
-    margin-top: 20px;
+    margin: 20px;
 }
 
 .check {
@@ -79,7 +79,7 @@ h3 {
 }
 
 .info.secondo {
-    background-color: blueviolet;
+    background-color: purple;
 }
 
 .info.terzo {
@@ -91,6 +91,31 @@ h3 {
     border-radius: 50%;
     border: 1px solid red;
     padding: 3px;
+}
+
+.info.quarto {
+    background-color: orange;
+}
+
+.info.quinto {
+    background-color: blueviolet;
+}
+
+.info.sesto {
+    background-color:rgb(89, 255, 0);
+}
+
+.info.settimo {
+    background-color: blue;
+}
+
+.freccia {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+div {
+    margin: 20px;
 }
 
 
