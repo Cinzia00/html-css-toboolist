@@ -2,6 +2,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
     background-color: lightgray;
 }
 
@@ -19,20 +22,78 @@
 
 .container {
    margin: 50px 300px 0;
-   width: 500px;
+   width: 800px;
    height: 800px; 
    background-color: white;
+   border-radius: 5px;
 }
 
-.botton {
+.button {
     display: inline-block;
     margin-top: 10px;
+    padding: 8px;
+    border-radius: 5px;
 }
 
-.botton left {
+.button.left {
     margin-left: 40px;
-    background-color: blue;
+    background-color: rgb(30, 122, 180);
+    color: white;
 }
+
+.button.right {
+    background-color: white;
+    border: 1px solid lightgray;
+    color: lightgray;
+}
+
+.border {
+    border: 1px solid lightgray;
+    margin-top: 8px;
+}
+
+.content {
+    margin-left: 40px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+.check {
+    color: green;
+    border-radius: 50%;
+    border: 1px solid green;
+    padding: 3px;
+}
+
+.info {
+    font-size: 11px;
+    padding: 8px;
+    border-radius: 12px;
+    color: white;
+}
+
+.info.primo {
+    background-color: lightblue;
+}
+
+.info.secondo {
+    background-color: blueviolet;
+}
+
+.info.terzo {
+    background-color: green;
+}
+
+.cross {
+    color: red;
+    border-radius: 50%;
+    border: 1px solid red;
+    padding: 3px;
+}
+
+
 
 
 
