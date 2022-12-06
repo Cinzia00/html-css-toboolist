@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.intestazione {
+    margin: 10px 25px;
+}
+
+.title {
+    display: inline-block;
+    vertical-align: revert;
+    font-size: 40px;
+}
+
+.container {
+    background-color: lightgray;
+    width: 1000px;
+    height: 1000px;
+}
+
+.subcontainer {
+    width: 500px;
+    height: 500px;
+    margin-left: 60px;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: white;
+}
+
+.button {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.button left {
+    background-color: blue;
+}
+
+.button right {
+    border: 1px solid gray;
+}
+
+
+
