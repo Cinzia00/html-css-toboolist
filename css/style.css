@@ -2,45 +2,40 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: lightgray;
 }
 
 .intestazione {
-    margin: 10px 25px;
+    background-color: white;
+    margin: 0;
 }
 
 .title {
     display: inline-block;
+    background-color: white;
     vertical-align: revert;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .container {
-    background-color: lightgray;
-    width: 1000px;
-    height: 1000px;
+   margin: 50px 300px 0;
+   width: 500px;
+   height: 800px; 
+   background-color: white;
 }
 
-.subcontainer {
-    width: 500px;
-    height: 500px;
-    margin-left: 60px;
-    margin-top: 30px;
-    padding: 10px;
-    background-color: white;
+.botton {
+    display: inline-block;
+    margin-top: 10px;
 }
 
-.button {
-    padding: 5px;
-    border-radius: 5px;
-}
-
-.button left {
+.botton left {
+    margin-left: 40px;
     background-color: blue;
 }
 
-.button right {
-    border: 1px solid gray;
-}
+
+
 
 
 
